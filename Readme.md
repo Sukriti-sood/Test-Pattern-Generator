@@ -31,3 +31,7 @@ Implementation of Test Pattern Genereation algorithm in python based upon path s
 ## OUTPUT
 
 Test vector and expected output is printed in *output.txt* file.
+
+## Simulation
+![SImulation](https://github.com/Sukriti-sood/Test-Pattern-Generator/assets/55010599/2e6a8dda-b2ac-405d-9da7-bea2c8edaff6)
+
