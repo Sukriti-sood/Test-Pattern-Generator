@@ -1,6 +1,6 @@
 # Test Pattern Generator
 
-Implementation of Test Pattern Genereation algorithm in python based upon path sensitization algorithm.
+Implementation of Test Pattern Generation algorithm in python based upon path sensitization algorithm.
 
 ## RUN
 
@@ -10,7 +10,7 @@ Implementation of Test Pattern Genereation algorithm in python based upon path s
 
 - Circuit File *circuit.txt*
 - Fault Location (Any node in the circuit)
-- Fault Type (Stuck at 0 ---> SA0) OR (Stuck at 0 ---> SA1)
+- Fault Type (Stuck at 0 ---> SA0) OR (Stuck at 1 ---> SA1)
 
 ### Circuit Format
 
