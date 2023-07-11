@@ -15,8 +15,6 @@ def find_pi(circuit):
         for node in circuit[key]["inputs"]:
             if "net_" not in node:
                 primary_inputs.append(node)
-    # print(primary_inputs)
-    # sort
     primary_inputs.sort()
 
 
@@ -185,12 +183,7 @@ def set_farward_path_of_fault_node(circuit, current_node, vis, node_values):
                 val = value ^ 1
             for nds in circuit[current_node]["inputs"]:
                 if vis.get(nds) is None:
-                    # com = ''
-                    # if gate == '~':
-                    #   com = (str(val) + "^1")
-                    # else:
                     com = str(ans) + gate + str(val)
-                    # print(com)
                     ans = eval(com)
                     dfs(circuit, nds, val, vis, node_values)
             node_values[current_node] = ans
@@ -208,7 +201,7 @@ if __name__ == "__main__":
 
     ans = generate_test_vectors(circuit_file, fault_node, fault_type)
 
-    # print(test_vectors)
+
     # Print the test vectors and expected outputs
     with open("output.txt", "w") as output_file:
         test_vector = ans[0]
