@@ -1,6 +1,6 @@
 # Test Pattern Generator
 
-Implementation of Test Pattern Generation algorithm in python based upon path sensitization algorithm.
+Implementation of Test Pattern Generation algorithm in python based upon path sensitization.
 
 ## RUN
 
